@@ -1,0 +1,35 @@
+{
+  "name": "acc-player-keyboard",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "serve:demo": "vue-cli-service serve --mode demo",
+    "serve:local": "vue-cli-service serve --mode local",
+    "build": "vue-cli-service build",
+    "lint": "vue-cli-service lint"
+  },
+  "dependencies": {
+    "@accurate-player/accurate-player-components-external": "2.3.0-alpha.4",
+    "@accurate-player/accurate-player-controls": "6.0.0-alpha.0",
+    "@accurate-player/accurate-player-core": "6.0.0-alpha.0",
+    "@accurate-player/accurate-player-hls": "6.0.0-alpha.0",
+    "@accurate-player/accurate-player-plugins": "6.0.0-alpha.0",
+    "@accurate-player/probe": "6.0.0-alpha.0",
+    "core-js": "^3.6.5",
+    "vue": "^2.6.11"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "~4.5.0",
+    "@vue/cli-plugin-eslint": "~4.5.0",
+    "@vue/cli-service": "~4.5.0",
+    "@vue/eslint-config-standard": "^5.1.2",
+    "babel-eslint": "^10.1.0",
+    "eslint": "^6.7.2",
+    "eslint-plugin-import": "^2.20.2",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-promise": "^4.2.1",
+    "eslint-plugin-standard": "^4.0.0",
+    "eslint-plugin-vue": "^6.2.2",
+    "vue-template-compiler": "^2.6.11"
+  }
+}
